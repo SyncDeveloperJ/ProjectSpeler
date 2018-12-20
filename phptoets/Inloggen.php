@@ -11,9 +11,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         $sGebruiker = trim($_POST['user']);
         $sWachtwoord = trim($_POST['pass']);
         
-        $con = mysqli_connect("localhost", "root", "", "schoolbezoek");
+        $con = mysqli_connect("localhost", "root", "", "fcmborijnland");
         
-        $sql="SELECT username, password FROM gebruikers WHERE username = '".$sGebruiker."' AND password = '".$sWachtwoord."'";
+        $sql="SELECT gebruikersnaam, wachtwoord FROM inloggen WHERE gebruikersnaam = '".$sGebruiker."' AND wachtwoord = '".$sWachtwoord."'";
         
         //connecten en controleren van waarden en weergave
         if($result = mysqli_query($con, $sql)){
