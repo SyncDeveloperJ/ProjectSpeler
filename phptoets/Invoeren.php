@@ -8,22 +8,18 @@
         
         <form method="POST" action="action_page.php">
             
-            Gebruikersnaam:<br>
-                <input type="text" name="Gebruikersnaam">
+            Docent:<br>
+                <input type="text" name="Docent">
                 <br>
                 
-            Wachtwoord:<br>
-                <input type="text" name="Wachtwoord">
+            Datum:<br>
+                <input type="text" name="Datum">
                 <br>
                    
-            Productnaam:<br>
-                <input type="text" name="Productnaam">
+            Aantekeningen:<br>
+                <input type="text" name="Aantekeningen">
                 <br>
-             
-            Bevindingen:<br>
-                <input type="text" name="Bevindingen">
-                <br>
-          
+                       
             <p>
                 <input type="submit" value="Inloggen" />
             </p>

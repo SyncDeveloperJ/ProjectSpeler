@@ -2,7 +2,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "ici";
+$dbname = "schoolbezoek";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
         
         if(mysqli_connect_errno())
@@ -24,14 +24,14 @@ $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
         if ($_SERVER["REQUEST_METHOD"]== 'POST'){
 
 
-               $Gebruikersnaam = test_input($_POST['Gebruikersnaam']) ;
-               $Wachtwoord = test_input($_POST['Wachtwoord']);
-               $Productnaam = test_input($_POST['Productnaam']) ;
-               $Bevindingen = test_input($_POST['Bevindingen']) ;
-               $query = "INSERT INTO ici (id, Gebruikersnaam, Wachtwoord, Productnaam, Bevindingen) VALUES (NULL, '$Gebruikersnaam', '$Wachtwoord', '$Productnaam', '$Bevindingen');";
+               $Docent = test_input($_POST['Docent']) ;
+               $Datum = test_input($_POST['Datum']);
+               $Aantekeningen = test_input($_POST['Aantekeningen']) ;
+               $query = "INSERT INTO schoolbezoek (id, Docent, Datum, Aantekening) VALUES (NULL, '$Docent', '$Datum', '$Aantekeningen');";
                Echo "succesfully inputed the stuff returning to the index soon" ;
 
                mysqli_query($connection, $query);
+               header('Refresh: 3; url=verschijning.php');
         }
         
         ?>

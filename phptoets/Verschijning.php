@@ -2,7 +2,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "phples";
+$dbname = "schoolbezoek";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 $mysqli = new mysqli("$dbhost", "$dbuser", "$dbpass", "$dbname");
         
@@ -14,7 +14,7 @@ $mysqli = new mysqli("$dbhost", "$dbuser", "$dbpass", "$dbname");
           );
         }
         
-        $query = "SELECT * FROM gebruikers";
+        $query = "SELECT * FROM schoolbezoek";
         $result = mysqli_query($connection, $query);
         if (!$result) {
             die("Database query failed");
@@ -22,11 +22,17 @@ $mysqli = new mysqli("$dbhost", "$dbuser", "$dbpass", "$dbname");
         
         while ($obj = mysqli_fetch_object($result)) 
                 {
-            echo $obj->username;
+            echo $obj->Docent; 
+            echo ("<br>");
+            echo $obj->Datum;
+            echo ("<br>");
+            echo $obj->Aantekening;
+            echo ("<br><br>");
         }
         
         mysqli_free_result($result);
         
         mysqli_close($connection);
         
+        echo " <tr> <td><a href='Aanpassen.php'>Hier pas je aan</a></td>"
       ?>
