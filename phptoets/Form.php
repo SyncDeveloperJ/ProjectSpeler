@@ -7,7 +7,7 @@
     
     <body>
         <h1>Inloggen</h1>
-        <form method="POST" action="inloggen.php">
+        <form method="POST" action="Inloggen.php">
             <p>
                 <label for="user">Gebruikersnaam:</label>
                 <input type="text" name="user" id="users" />
