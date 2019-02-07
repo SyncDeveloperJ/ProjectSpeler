@@ -1,0 +1,16 @@
+.active2 {
+  font-size: 18px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 0px;
+
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+footer {
+    padding-left: 70px;
+}

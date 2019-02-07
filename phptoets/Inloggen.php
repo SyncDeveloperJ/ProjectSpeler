@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
             $_SESSION['logged_in'] = true;
             $_SESSION['gebruiker'] =$sGebruiker;
             
-            header('Refresh: 3; url=Invoeren.php');
+            header('Refresh: 3; url=menu.php');
             echo 'Je bent succesvol ingelogd. Je wordt doorgestuurd.';
         }
         else

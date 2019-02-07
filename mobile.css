@@ -1,0 +1,55 @@
+.logo{
+    width: 19%;
+}
+
+.pt-box.pt-box-2 {
+    background: #fff;
+    border-bottom: 5px solid #227722;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 650px;
+    min-height: 650px;
+}
+
+.pt-box.pt-box-3 {
+    background: #fff;
+    border-bottom: 5px solid #227722;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 545px;
+    min-height: 545px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    text-align: left;
+    margin: auto;
+    font-size: 13px;
+    background-color: #30866f;
+    color: #382549;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-top: 75px;
+    box-sizing: content-box;
+}
+
+footer strong{
+    font-size: 15px;
+}
+
+footer ul {
+    width: 25%;
+}
+
+.copyright{
+   padding-left:5px;
+    
+}
+
+.Trainers{
+    width: 100%;
+}
