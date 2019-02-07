@@ -53,3 +53,8 @@ footer ul {
 .Trainers{
     width: 100%;
 }
+
+.pt-anchor.pt-anchor-primary {
+    margin-bottom: 2px;
+    margin-right: 1px;
+}

@@ -5,3 +5,8 @@
 footer {
     padding-left: 30px;
 }
+
+.pt-anchor.pt-anchor-primary {
+    margin-bottom: 2px;
+    margin-right: 0px;
+}
