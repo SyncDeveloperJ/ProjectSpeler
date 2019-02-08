@@ -926,7 +926,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     content: '';
-    opacity: .5;
+    opacity: .7;
     position: absolute;
     top: 0;
     right: 0;
@@ -958,7 +958,7 @@ body {
     bottom: -150px;
     left: -50%;
     -ms-transform: rotate(355deg);
-    transform: rotate(355deg);
+    transform: rotate(356deg);
     height: 300px;
 }
 
@@ -1002,7 +1002,7 @@ body {
 
 .pt-anchor .pt-heading {
     display: block;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -4246,7 +4246,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-bottom: 15px;
   }
   .navbar-nav.navbar-right:last-child {
-    margin-right: 500px;
+    margin-right: 3.5%;
+    background-color: #187aad;
+    width: 1380px;
   }
 }
 @media (min-width: 768px) {
@@ -4387,7 +4389,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #30866f;
+  color: #ffffff;
 }
  
 
@@ -4397,7 +4399,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #68baa5;
+  color: #ffffff;
  
 }
 .navbar-default .navbar-nav > .active > a,
@@ -6841,7 +6843,7 @@ button.close {
 
 .active2:hover {
     
-border-bottom: 4px solid #68baa5;
+border-bottom: 4px solid #ffffff;
     
 }
 
@@ -6937,6 +6939,8 @@ footer a {
 * {
   margin: 0;
   padding: 0; 
+font-size: 19px;
+}
 }
 
 /* Icon 1 dropdown hamburger-button */
@@ -7340,4 +7344,11 @@ ul li ul li {
 
 .Trainers{
     width: 150px;
+}
+
+.Titel2 {
+    font-size: 30px;
+    color: #187aad;
+    padding: 40px;
+    text-align: center;
 }
