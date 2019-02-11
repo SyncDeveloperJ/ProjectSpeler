@@ -6877,9 +6877,9 @@ strong{
     display:none;
 }	
 
- .copyright { padding-left:100px; min-height:40px; background-color:grey; position:absolute; width:100%}
+ .copyright { padding-left:12px; min-height:40px; background-color:#187aad; position:absolute; width:100%}
  .copyright p {color:#FFF; padding:10px 0; margin-bottom:0;}
- .copyright a {color:#68baa5}
+ .copyright a {color:white}
 
 footer {
     position: relative;
@@ -6888,7 +6888,7 @@ footer {
     text-align: left;
     margin: auto;
     font-size: 14px;
-    background-color: #30866f;
+    background-color: #778b95;
     color: #382549;
     padding-left: 100px;
     padding-right: 100px;
@@ -7239,7 +7239,7 @@ font-size: 19px;
 
 .pt-box.pt-box-consult {
     background: #fff;
-    border-bottom: 5px solid #30866f;
+    border-bottom: 5px solid #187aad;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 0px 30px 30px 30px;
     
