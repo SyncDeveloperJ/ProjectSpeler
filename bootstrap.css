@@ -1104,7 +1104,7 @@ body h1{
 }
 
 body h2{
-    color: #30866f;
+    color: #187aad;
     font-family: 'Tauri', sans-serif;
 }
 
@@ -7230,11 +7230,11 @@ font-size: 19px;
 
 .pt-box.pt-box-3 {
     background: #fff;
-    border-bottom: 5px solid #30866f;
-    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    border-bottom: 5px solid #187aad;
+    box-shadow: 0 15px 80px rgba(21, 134, 200, 0.4);
     padding: 30px;
-    max-height: 500px;
-    min-height: 500px;
+    max-height: 400px;
+    min-height: 350px;
 }
 
 .pt-box.pt-box-consult {
@@ -7352,3 +7352,24 @@ ul li ul li {
     padding: 40px;
     text-align: center;
 }
+
+.btn-info {
+    color: #fff;
+    background-color: #124b8c;
+    border-color: #124b8c;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+    color: #ffffff;
+    background-color: #187aad;
+    border-color: li;
+}
+
+.button-1 {
+    margin: 30px auto;
+    margin-left: 0%;
+    background-color: #187aad;
+    color: #ffffff;
+    padding: 6px 12px;
+}
+
