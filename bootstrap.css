@@ -7343,6 +7343,7 @@ a {
   width: 100%;
   border-bottom: 1px solid #555;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
 }
 .ct-footer-list > li .ct-footer-list-header {
   font-family: 'Open Sans Condensed', sans-serif;
