@@ -7228,69 +7228,10 @@ font-size: 19px;
     display:none;
 }
 
-/*voor de tabel*/
-table {
-    width: 100%;
-}
-table, th, td {
-    border: 2px solid grey;
-    border-collapse: collapse;
-    font-size: 20px;
-}
-th, td {
-    padding: 5px;
-    text-align: left;
-    color: grey;
-}
-
-table#t01 tr {
-    border: none;
-}
-
-table#t01 th {
-    color: #30866f;
-}
-
-#banner-text{
-    margin-top: 14%;
-}
 .send {
     margin-right: 20%;
 }
 
-.list {
-    color: #fff;
-    display: block;
-    padding: 1rem;
-    position: relative;
-  transition-duration: 0.5s;
-}
-
-
-
-ul li ul  {
-    background:white;
-    visibility: hidden;
-    opacity: 0;
-    min-width: 12rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
-}
-
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-ul li ul li {
-    clear: both;
-  width: 100%;
-}
 
 .Trainers{
     width: 150px;
