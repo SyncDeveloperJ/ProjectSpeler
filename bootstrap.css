@@ -6873,56 +6873,6 @@ strong{
 }
 
 
-.socialmedia{
-    display:none;
-}	
-
- .copyright { padding-left:12px; min-height:40px; background-color:#187aad; position:absolute; width:100%}
- .copyright p {color:#FFF; padding:10px 0; margin-bottom:0;}
- .copyright a {color:white}
-
-footer {
-    position: relative;
-    width: 100%;
-    height: 165px;
-    text-align: left;
-    margin: auto;
-    font-size: 14px;
-    background-color: #778b95;
-    color: #382549;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 15px;
-    padding-bottom: 50px;
-    margin-top: 15px;
-    box-sizing: content-box;
-}
-
-footer ul {
-    height: 100%;
-    width: 25%;
-    list-style: none;
-    float: left;
-}
-
-footer li {
-    margin-top: 20px;
-    color: snow;
-}
-
-footer a {
-    color: snow;
-}
-
-.flag{
-        margin-left: -36%;
-    margin-right: 29%;
-}
-
-.flag2{
-       display:none;
-}
-
 
 .item h4 {
     font-size: 19px;
