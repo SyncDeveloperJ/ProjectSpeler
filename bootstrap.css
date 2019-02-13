@@ -7694,3 +7694,7 @@ address a:hover {
   }
 }
 
+#klogo{  
+    float: right; 
+    height: 100px;
+}
