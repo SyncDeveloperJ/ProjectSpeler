@@ -7171,13 +7171,6 @@ font-size: 19px;
     overflow: hidden;
 }
 
-
-.logo{
-    width: 20%;
-    margin-left: 25%;
-    margin-bottom: ;
-}
-
 .logomobile{
     display:none;
 }
@@ -7653,14 +7646,6 @@ address a:hover {
     height: 100px;
 }
 
-body {
-
-margin: 0;
-padding: 0;
-font-family: Sans-serif; 
-
-}
-
 header {
 
 position: absolute;
@@ -7731,18 +7716,19 @@ font-size: 24px;
 cursor: pointer;
 display: none;
 }
+
 @media (max-width: 991px) {
 
 header{
 padding: 0 20px; 
 }
+    
 .menu-toggle {
 display: block;
 
 }
 header nav {
 
-display: none; 
 position: absolute;
 width: 100%;
 height: calc(100vh - 50px);
@@ -7751,10 +7737,16 @@ top: 50px;
 left: -100%;
 transition: 0.5s;
 }
+    
+    header nav.active{
+        left: 0;
+    }
+    
 header nav ul {
 display: block;
 text-align: center;
 }
+    
 header nav ul li a{
 border-bottom: 1px solid rgba(0,0,0,.2);
 }
