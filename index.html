@@ -43,7 +43,6 @@ BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="a
 <div class="navbar navbar-default navbar-static-top">
 <div class="container-fluid">
 <div class="navbar-header">
-    <a href="index.html"><img class="logo" src="images/Sync_new_logo.png"></a>
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 <div id="nav-icon3">
   <span></span>
@@ -64,31 +63,27 @@ $(document).ready(function(){
 <a class="navbar-brand" href="#"></a>
     </div>
 
-<div class="collapse navbar-collapse navbar-responsive-collapse">
-<ul class="nav navbar-nav navbar-right">
-<li class="list">
-<a  class="active2" href="index.html"><strong>Home</strong></a>
-</li>
-   
-<li class="list">
- <a  class="active2" href="diensten.html"><strong>Diensten</strong></a>
-</li>
-
-<li class="list">
-<a  class="active2" href="werkwijze.html"><strong>Werkwijze</strong></a>
-</li>
-
-<li class="list">
-    <a  class="active2" href="portfolio.html"><strong>Portfolio</strong></a>
-    </li>
-    
-<li class="list">
-<a  class="active2" href="contact.html"><strong>Contact</strong></a>
-</li>
+<header>
+<div class="logo">Logo</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="werkwijze.html">Werkwijze</a></li>
+<li><a href="diensten.html">Diensten</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact.html">Contact</a></li>
 
 </ul>
-   <!--De class zort ervoor dat dit menu wordt gelinked met de animatie in de css-->
-</div>
+</nav> 
+<div class="menu-toggle"></div>
+</header>
+<script src="https://code.jquery.com-3.3.1.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+      $('.menu-toggle').click(function(){
+          $('nav').toggleClass('active')
+</script>    
+    
 </div>
 </div>
 
