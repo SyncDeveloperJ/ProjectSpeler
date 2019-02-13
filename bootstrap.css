@@ -6830,39 +6830,6 @@ button.close {
   padding: 20px;
 }
 
-/*hover menu*/
-/*Dit zorgt ervoor dat het menu een animatie krijgt wanneer je met je muis erover heen gaat */
-
-.active2 {
-  font-size: 18px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 20px;
-
-}
-
-.active2:hover {
-    
-border-bottom: 4px solid #ffffff;
-    
-}
-
-.dropactive {
-  font-size: 18px;
-  margin-left: 10px;
-  margin-right: 0px;
-  margin-top: 20px;
-
-}
-
-.dropactive:hover {
-    
-border-bottom: 4px solid #68baa5;
-    
-}
-
-
-
 strong{
     font-size: 20px;
     text-align: center;
