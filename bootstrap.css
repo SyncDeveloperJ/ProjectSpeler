@@ -7652,23 +7652,60 @@ position: absolute;
 top: 0;
 left: 0;
 padding: 0 100px; 
-background: #186aad; 
+background: #00518e; 
 width: 100%; 
 box-sizing: border-box;
+height: 100%
 
 }
 
 header .logo {
-
-color: #fff;
-height: 50px;
-line-height: 50px;
-font-size: 24px;
-float: left; 
-font-weight: bold;
-background-image: url(images/Sync_new_logo.png);
-
+    background: #fff;
+    display: block;
+    float: left;
+    height: 9rem;
+    width: 13.5rem;
+    position: relative;
+    top: 1px;
+    margin-top: -1px;
+    margin-right: .75rem;
+    padding-bottom: 1px;
+    box-sizing: content-box;
+    overflow: hidden;
+    -ms-transform: skew(10.5deg);
+    -webkit-transform: skew(10.5deg);
+    transform: skew(10.5deg);
+    transition: .3s ease-out;
 }
+
+header .logo img {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    right: 2rem;
+    bottom: 45%;
+    transition: .3s ease-out;
+    -ms-transform: skew(-10.5deg);
+    -webkit-transform: skew(-10.5deg);
+    transform: skew(-10.5deg);
+}
+
+header .logo .slogan {
+    display: block;
+    width: 10.5rem;
+    position: absolute;
+    top: 5rem;
+    left: 0.5rem;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: left;
+    -ms-transform: skew(-1.5deg);
+    -webkit-transform: skew(-1.5deg);
+    transform: skew(-1.5deg);
+}
+
+
 
 header nav {
 
@@ -7703,8 +7740,8 @@ display: block;
 header nav ul li a:hover, 
 header nav ul li a.active {
 
-color: #fff;
-background: #219663;
+color: #00518e;
+background: #fff;
 
 }
 .menu-toggle {
