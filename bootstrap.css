@@ -7572,7 +7572,7 @@ address a:hover {
     float: left;
   }
   .ct-footer-post .inner-right {
-    float: right;
+    text-align: center;
   }
 }
 @media (max-width:991px) {
@@ -7699,7 +7699,7 @@ header .logo img {
     height: auto;
     width: 80%;
     position: absolute;
-    right: 2rem;
+    right: 1.5rem;
     bottom: 45%;
     transition: .3s ease-out;
     -ms-transform: skew(-10.5deg);
