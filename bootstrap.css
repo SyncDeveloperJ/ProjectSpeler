@@ -938,7 +938,9 @@ body {
 .page-title {
     font-size: 45px;
     font-weight: 900;
-    float:left
+    float:left;
+    font-family: 'raleway' , 'sans-serif';
+    font-weight: bold;
 
 }
 
@@ -1090,9 +1092,10 @@ body {
 }
 
 p{
-    color: gray;
-    font-family: 'Tauri', sans-serif;
-    font-size: 17px;
+    color: grey;
+    font-family: 'raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
     
 }
 
@@ -1109,8 +1112,9 @@ body h1{
 }
 
 body h2{
-    color: #187aad;
-    font-family: 'Tauri', sans-serif;
+    color: #00518e;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
 }
 
 body h3{
@@ -6849,6 +6853,8 @@ strong{
   margin: 0;
   padding: 0; 
 font-size: 19px;
+font-family: 'raleway' , 'sans-serif';
+    font-weight: bold;
 }
 }
 
@@ -7139,8 +7145,8 @@ font-size: 19px;
 
 .pt-box.pt-box-3 {
     background: #fff;
-    border-bottom: 5px solid #187aad;
-    box-shadow: 0 15px 80px rgba(21, 134, 200, 0.4);
+    border-bottom: 5px solid #00518e;
+    box-shadow: 0 11px 50px rgba(0, 53, 85, 0.4);
     padding: 30px;
     max-height: 400px;
     min-height: 350px;
@@ -7191,9 +7197,11 @@ font-size: 19px;
 
 .Titel2 {
     font-size: 30px;
-    color: #187aad;
+    color: #00518e;
     padding: 40px;
     text-align: center;
+    font-family: 'raleway' , 'sans-serif';
+    font-weight: bold;
 }
 
 .btn-info {
@@ -7211,9 +7219,11 @@ font-size: 19px;
 .button-1 {
     margin: 30px auto;
     margin-left: 0%;
-    background-color: #187aad;
+    background-color: #00518e;
     color: #ffffff;
-    padding: 6px 12px;
+    padding: 10px 20px;
+    font-family: 'raleway' , 'sans-serif';
+    font-weight: bold;
 }
 
 html,
@@ -7256,9 +7266,10 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .ct-footer-pre span {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #ebebeb;
-  font-size: 30px;
+  font-family: 'raleway', sans-serif;
+    color: #ebebeb;
+    font-size: 27px;
+    font-weight: 500;
 }
 .ct-footer-pre .form-group {
   position: relative;
@@ -7290,6 +7301,7 @@ a {
 .ct-footer-list {
   padding: 50px 0;
   list-style: none;
+  background-color: #000000;
   padding-left: 0;
   display: table;
   width: 100%;
@@ -7298,9 +7310,9 @@ a {
   text-align: center;
 }
 .ct-footer-list > li .ct-footer-list-header {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #00bff3;
-  font-size: 30px;
+      font-family: 'raleway', sans-serif;
+    color: #00518e;
+    font-size: 30px;
 }
 .ct-footer-list > li ul {
   list-style: none;
@@ -7697,17 +7709,18 @@ header .logo img {
 
 header .logo .slogan {
     display: block;
+    font-family: 'raleway' , 'sans-serif';
     width: 10.5rem;
     position: absolute;
-    top: 5rem;
-    left: 0.5rem;
-    color: gray;
+    top: 4.8rem;
+    left: 1.5rem;
+    color: #323131b3;
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: bold;
     text-align: left;
     -ms-transform: skew(-1.5deg);
     -webkit-transform: skew(-1.5deg);
-    transform: skew(-1.5deg);
+    transform: skew(-9.5deg);
 }
 
 
