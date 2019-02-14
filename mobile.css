@@ -29,3 +29,8 @@
     margin-bottom: 2px;
     margin-right: 1px;
 }
+
+.page-image {
+    float:left;
+    width: 40%;
+}
