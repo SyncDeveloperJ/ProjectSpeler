@@ -935,8 +935,8 @@ body {
     z-index: -1;
 }
 
-.pagetitle-title {
-    font-size: 50px;
+.page-title {
+    font-size: 45px;
     font-weight: 900;
     float:left;
     font-family: 'raleway' , 'sans-serif';
