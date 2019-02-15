@@ -3052,8 +3052,8 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color:  #00518e;
   border-color: #ccc;
 }
 .btn-default:hover,
@@ -3061,7 +3061,7 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: blue;
+  color:  #00518e;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -5733,10 +5733,12 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  text-align: center;
 }
 .modal-body {
   position: relative;
   padding: 15px;
+  text-align: center;
 }
 .modal-footer {
   padding: 15px;
@@ -7148,8 +7150,6 @@ font-family: 'raleway' , 'sans-serif';
     border-bottom: 5px solid #00518e;
     box-shadow: 0 11px 50px rgba(0, 53, 85, 0.4);
     padding: 30px;
-    max-height: 400px;
-    min-height: 350px;
 }
 
 .pt-box.pt-box-consult {
@@ -7216,14 +7216,9 @@ font-family: 'raleway' , 'sans-serif';
     border-color: li;
 }
 
-.button-1 {
+#button-1 {
     margin: 30px auto;
     margin-left: 0%;
-    background-color: #00518e;
-    color: #ffffff;
-    padding: 10px 20px;
-    font-family: 'raleway' , 'sans-serif';
-    font-weight: bold;
 }
 
 html,
@@ -7376,11 +7371,9 @@ address a:hover {
 }
 .btn {
   font-family: 'Open Sans Condensed', sans-serif;
-  border-radius: 0;
+  border-radius: 15;
   border: none;
-  text-transform: uppercase;
-  color: #111;
-  font-size: 26px;
+  font-size: 16px;
   padding: 12px 30px;
 }
 .btn.btn-motive {
