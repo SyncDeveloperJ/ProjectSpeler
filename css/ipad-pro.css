@@ -14,3 +14,8 @@
 footer {
     padding-left: 70px;
 }
+
+.pt-anchor.pt-anchor-primary {
+    margin-bottom: 50px;
+    margin-right: 1px;
+}

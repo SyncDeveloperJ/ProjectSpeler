@@ -17,3 +17,8 @@ strong{
 footer {
     padding-left: 0px;
 }
+
+.pt-anchor.pt-anchor-primary {
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
