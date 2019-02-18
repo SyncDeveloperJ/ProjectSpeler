@@ -6,3 +6,8 @@
     margin-bottom: 2px;
     margin-right: 0px;
 }
+
+.img-responsive{
+    align-content: center;
+    width: 700px;
+}
