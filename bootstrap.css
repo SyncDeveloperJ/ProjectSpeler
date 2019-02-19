@@ -7258,16 +7258,19 @@ a {
   padding-top: 10px !important;
 }
 .ct-footer {
-  background-color: #767676e8;
-  padding-top: 70px;
-  margin-top: 20px;
+  background-color: #ffffff;
+  padding-top: 0px;
+  margin-top: 0px;
   position: relative;
+  background-image: url(images/ftr.png);
+  background-size: cover;
+
 }
 .ct-footer-pre {
   width: 100%;
-  padding-bottom: 55px;
-  border-bottom: 1px solid #555;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0px;
+  
+  
 }
 .ct-footer-pre span {
   font-family: 'raleway', sans-serif;
