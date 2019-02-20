@@ -7258,11 +7258,10 @@ a {
   padding-top: 10px !important;
 }
 .ct-footer {
-  background-color: #ffffff;
-  padding-top: 0px;
+  padding-top: 75px;
   margin-top: 0px;
   position: relative;
-  background-image: url(images/ftr.png);
+  background-image: url(images/Footer%20basis.png);
   background-size: cover;
 
 }
@@ -7317,8 +7316,8 @@ a {
   text-align: center;
 }
 .ct-footer-list > li .ct-footer-list-header {
-      font-family: 'raleway', sans-serif;
-    color: #00518e;
+    font-family: 'raleway', sans-serif;
+    color: #bebebe;
     font-size: 30px;
 }
 .ct-footer-list > li ul {
@@ -7553,7 +7552,7 @@ address a:hover {
     vertical-align: middle;
   }
   .ct-footer-list > li {
-    width: 20%;
+    width: 30%;
     display: table-cell;
     vertical-align: top;
   }
