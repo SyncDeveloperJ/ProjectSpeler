@@ -935,10 +935,33 @@ body {
     z-index: -1;
 }
 
+.pt-page-header-2::before {
+    background-image: url();
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
 .page-title {
     font-size: 50px;
     font-weight: 900;
     float:left;
+    font-family: 'raleway' , 'sans-serif';
+    font-weight: bold;
+
+}
+
+.page-title-2 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
     font-family: 'raleway' , 'sans-serif';
     font-weight: bold;
 
@@ -1077,18 +1100,6 @@ body {
     overflow-x: hidden;
 }
 
-.pt-main .pt-globe-consult {
-    background: url(../images/Logo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .04;
-    position: absolute;
-    top: 150px;
-    left: -80px;
-    width: 600px;
-    height: 600px;
-    overflow-x: hidden;
-}
 
 .pt-main .pt-globe-about {
     background: url(../images/Logo.svg);
@@ -7216,7 +7227,16 @@ font-family: 'raleway' , 'sans-serif';
 
 .pt-box {
     border-radius: 3px;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    overflow: hidden;
+}
+
+.pt-box.pt-box-Contactpage {
+    border-radius: 3px;
+    margin-bottom: 0%;
+    margin-top: 24%;
+    background-color: #ffffff;
     overflow: hidden;
 }
 
