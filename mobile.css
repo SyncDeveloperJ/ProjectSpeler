@@ -50,3 +50,12 @@ header .logo .slogan {
     -webkit-transform: skew(-1.5deg);
     transform: skew(-9.5deg);
 }
+
+.bg-img3 {
+    background-image: url(images/Sync-Development-Alphen-ad-Rijn-Laptop-mobiel-computer.jpg);
+    min-height: 545px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

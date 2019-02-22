@@ -7199,6 +7199,7 @@ font-family: 'raleway' , 'sans-serif';
     border-bottom: 5px solid #00518e;
     box-shadow: 0 11px 50px rgba(0, 53, 85, 0.4);
     padding: 30px;
+    margin-top: 5%;
 }
 
 .pt-box.pt-box-consult {
@@ -7379,7 +7380,7 @@ a {
   text-decoration: underline;
 }
 .ct-footer-post {
-  background: #00518e;
+  background: #66849b;
   padding: 0px 0;
 }
 .ct-footer-post .inner-left,
@@ -7862,3 +7863,20 @@ border-bottom: 1px solid rgba(0,0,0,.2);
         float: right
     }
 }
+
+.bg-img3 {
+    /* The image used */
+   
+    background-image: url("images/Offerte.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}    
+
