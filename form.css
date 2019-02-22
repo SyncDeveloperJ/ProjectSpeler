@@ -80,7 +80,7 @@ fieldset {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #30866f;
+	border:1px solid #00518e;
 }
 
 #contact textarea {
@@ -111,17 +111,17 @@ fieldset {
 
 #contact input:focus, #contact textarea:focus {
 	outline:0;
-	border:1px solid #30866f;
+	border:1px solid #00518e;
 }
 ::-webkit-input-placeholder {
- color:#30866f;
+ color: #00518e;
 }
 :-moz-placeholder {
- color:#30866f;
+ color:#00518e;
 }
 ::-moz-placeholder {
- color:#30866f;
+ color:#00518e;
 }
 :-ms-input-placeholder {
- color:#30866f;
+ color:#00518e;
 }
