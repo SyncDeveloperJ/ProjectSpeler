@@ -9,7 +9,7 @@ body{background-color:#f8f8f8;}
 
 /*PRICE COLOR CODE START*/
 #generic_price_table .generic_content{
-	background-color:#76767626;
+	background-color:#dddddd;
 }
 
 #generic_price_table .generic_content .generic_head_price{
@@ -17,7 +17,7 @@ body{background-color:#f8f8f8;}
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
-	border-color: #76767626 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #76767626;
+	border-color: #dddddd rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #dddddd;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
