@@ -1157,47 +1157,12 @@ body h2{
 }
 
 body h3{
-    color: snow;
+    color: #00518e;
     font-family: 'Tauri', sans-serif;
-    font-size: 12px;
 }
 
 ul.Fair-list li{
-	padding: 15px 0px 5px 32px;
-	list-style: none;
-	background-image: url("images/Logo.svg");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 25px;
-}
-
-ul.Ontology-list li{
-	padding: 5px 0px 0px 32px;
-	list-style: none;
-	background-image: url("images/Logo.svg");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 25px;
-    margin-left: 5%;
-}
-
-ul.Customer-list li{
-	padding: 2px 0px 5px 32px;
-	list-style: none;
-	background-image: url("images/Logo.svg");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 25px;
-}
-
-
-ul.Customer-list li.Sidebullet{
-	padding: 8px 0px -1px 32px;
-	list-style: none;
-	background-image: url("images/Logo.svg");
-	background-repeat: no-repeat;
-    background-position: left top;
-	background-size: 25px;
+	padding: 0px 0px 0px 10px;
 }
 
 input,
