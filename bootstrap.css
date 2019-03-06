@@ -1076,6 +1076,12 @@ body {
     z-index: 1;
 }
 
+.pt-abonnement {
+    margin: -200px 0 0px;
+    position: relative;
+    z-index: 1;
+}
+
 
 .home .pt-main {
     margin-bottom: 0;
