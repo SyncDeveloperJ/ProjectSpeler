@@ -87,6 +87,7 @@ body{background-color:#f8f8f8;}
 	overflow: hidden;
 	position: relative;
 	text-align: center;
+	height: 700px;
 }
 
 #generic_price_table .generic_content .generic_head_price {
