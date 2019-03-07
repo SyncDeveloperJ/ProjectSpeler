@@ -7163,15 +7163,13 @@ font-family: 'raleway' , 'sans-serif';
 
 .pt-box.pt-box-2 {
     background: #fff;
-    border-bottom: 5px solid #30866f;
+    border-bottom: 5px solid #00518e;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
-    max-height: 500px;
-    min-height: 500px;
 }
 
 .pt-box.pt-box-3 {
-    background: #ffffffdb;
+    background: rgba(255, 255, 255, 0.92);
     border-bottom: 5px solid #00518e;
     box-shadow: 0 11px 50px rgba(0, 53, 85, 0.4);
     padding: 30px;
