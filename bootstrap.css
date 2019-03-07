@@ -921,7 +921,7 @@ body {
 }
 
 .pt-page-header::before {
-    background-image: url(images/Sync-Development-Alphen-ad-Rijn-Laptop-mobiel-computer.jpg);
+    background-image: url(images/Sync-Development-website-laten-maken-Alphen-ad-Rijn-Laptop-mobiel-computer.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1090,33 +1090,6 @@ body {
     padding: 0px 0;
     position: relative;
     z-index: 1;
-}
-
-.pt-rest .pt-globe {
-    background: url(../images/Logo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .04;
-    position: absolute;
-    top: -40px;
-    left: -80px;
-    width: 600px;
-    height: 600px;
-    overflow-x: hidden;
-}
-
-
-.pt-main .pt-globe-about {
-    background: url(../images/Logo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .04;
-    position: absolute;
-    top: 10px;
-    left: -80px;
-    width: 600px;
-    height: 600px;
-    overflow-x: hidden;
 }
 
 .pt-page-header .pt-page-header-wrapper {
@@ -7285,7 +7258,7 @@ a {
   padding-top: 75px;
   margin-top: 0px;
   position: relative;
-  background-image: url(images/Footer%20basis.svg);
+  background-image: url(images/Sync-Development-website-laten-maken-Alphen-ad-Rijn-footer.svg);
   background-size: cover;
 
 }
@@ -7841,7 +7814,7 @@ border-bottom: 1px solid rgba(0,0,0,.2);
 .bg-img3 {
     /* The image used */
    
-    background-image: url("images/Offerte.jpg");
+    background-image: url("images/Sync-Development-website-laten-maken-Alphen-ad-Rijn-offerte.jpg");
 
     /* Set a specific height */
     min-height: 500px; 
