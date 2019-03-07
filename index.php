@@ -67,10 +67,10 @@ $(document).ready(function(){
 <header>
 <nav>
 <ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.html">Diensten</a></li>
-<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement.html">Abonnementen</a></li>
-<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.html">Contact</a></li>
+<li><a href="index.php">Home</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Diensten</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement.php">Abonnementen</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Contact</a></li>
 
 </ul>
 </nav> 
@@ -281,13 +281,13 @@ $(document).ready(function(){
             <a href="index.html">Homepagina</a>
           </li>
           <li>
-            <a href="diensten.html">Diensten</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Diensten</a>
           </li>
           <li>
-            <a href="abonnement.html">Abonnement</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement.php">Abonnement</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Contact</a>
           </li>
         </ul>
       </li>
