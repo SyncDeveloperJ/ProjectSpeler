@@ -1,2 +1,0 @@
-# ProjectSpeler
-Project opdracht 
