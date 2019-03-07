@@ -1163,6 +1163,11 @@ body h3{
 
 ul.Fair-list li{
 	padding: 0px 0px 0px 10px;
+    color: grey;
+    font-family: 'raleway', sans-serif; 
+    font-size: 18px; 
+    font-weight: 400;
+    text-align: left; 
 }
 
 input,
@@ -6876,7 +6881,7 @@ strong{
   padding: 0; 
 font-size: 19px;
 font-family: 'raleway' , 'sans-serif';
-  
+  font-weight: bold;
 }
 }
 
