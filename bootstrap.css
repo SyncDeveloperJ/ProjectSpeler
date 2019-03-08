@@ -7260,6 +7260,7 @@ a {
   position: relative;
   background-image: url(images/Sync-Development-website-laten-maken-Alphen-ad-Rijn-footer.svg);
   background-size: cover;
+  margin-left: -10px;
 
 }
 .ct-footer-pre {
