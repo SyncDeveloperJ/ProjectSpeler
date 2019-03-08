@@ -465,9 +465,6 @@ $(document).ready(function(){
            <li>
             <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Google Analytics</a>
           </li>
-          <li>
-            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Visitekaartjes</a>
-          </li>
         </ul>
       </li>
       
