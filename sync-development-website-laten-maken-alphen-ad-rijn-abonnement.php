@@ -67,10 +67,10 @@ $(document).ready(function(){
 <header>
 <nav>
 <ul>
-<li><a href="index.php">Home</a></li>
-<li><a href="sync-sevelopment-website-laten-maken-alphen-ad-rijn-diensten.php">Diensten</a></li>
-<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement.php">Abonnementen</a></li>
-<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Contact</a></li>
+<li><a href="index">Home</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten">Diensten</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement">Abonnementen</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-contact">Contact</a></li>
 
 </ul>
 </nav> 
@@ -130,17 +130,15 @@ $(document).ready(function(){
                <h2 style="text-align: center;">Hoe het werkt</h2>
             
                <ul class="Fair-list">
-                    <li>Je kiest een bundel bedrag voor het abonnement. Uit die bundel worden dan de dingen betaalt die je dat jaar laat doen.</li>
+                    <li>U kunt kiezen uit 3 verschillende bundels. Iedere bundel staat voor een bepaald bedrag. Dit bedrag moet u zien als een krediet</li>
                              
-                    <li>Voor alles wat je laat doen (bijvoorbeeld een nieuwe pagina aan laten maken), krijg je de korting die bij je bundel past.</li>
+                    <li>Alle diensten (bijvoorbeeld een nieuwe pagina aan laten maken), kosten geld wat van uw krediet af gaat.</li>
                              
-                    <li>De dingen die je laat doen worden van je openstaande bundel afgehaald; totdat de bundel op is.</li>
+                    <li>Bij iedere bundel krijgt u korting op de diensten, waardoor u met een abonnement meer diensten kan laten uitvoeren dat dat u ze los door ons laat doen! </li>
+                    
+                    <li>Als u krediet over houd kunt u dat meenemen naar het volgend jaar. Als u krediet te kort komt kunt u deze opwaarderen, u hoeft alleen het verschil in de bundels te betalen.</li>
                    
-                    <li>Als je bundel op is, mag je ook naar een hogere bundel opwaarderen. Je hoeft dan alleen het verschil te betalen.</li>
-                   
-                    <li>Als er na een jaar een bedrag overblijft uit de bundel dat niet wordt gebruikt, geen probleem, dat gaat gewoon mee naar het volgende jaar!</li>
-                   
-                    <li>Een kleine aanpassing , zoals een linkje op de site zetten is zelfs gratis. Ook als je bundel op is!</li>
+                    <li>Een kleine aanpassing, zoals een linkje op de site zetten of een titel veranderen is zelfs gratis. Ook als je bundel op is!</li>
                    
                     <li>Een abonnement loopt voor een jaar en kan tot een maand voor verlenging opgezegd worden.</li>
                 </ul>
@@ -148,11 +146,11 @@ $(document).ready(function(){
                <strong><h3 style="text-align: center;">Een abonnement biedt een aantal belangrijke voordelen:</h3></strong>
                
                <ul class="Fair-list">
-                    <li>Klanten met abonnement worden sneller geholpen. Vaste klanten gaan voor!</li>
+                    <li>Klanten met een abonnement worden sneller geholpen. Vaste klanten gaan voor!</li>
                              
-                    <li>Je krijgt korting op werkzaamheden binnen je bundel</li>
+                    <li>U krijgt korting op werkzaamheden binnen je bundel</li>
                              
-                    <li>Je kan opwaarderen naar een grotere bundel</li>
+                    <li>U kunt opwaarderen naar een grotere bundel</li>
                    
                     <li>Kleine aanpassingen aan de site (zoals een titel aanpassen of een linkje toevoegen) zijn altijd gratis, ook als je bundel op is.</li>
                </ul>
@@ -353,16 +351,16 @@ $(document).ready(function(){
         <h2 class="ct-footer-list-header">Navigatie</h2>
         <ul>
           <li>
-            <a href="index.php">Homepagina</a>
+            <a href="index">Homepagina</a>
           </li>
           <li>
-            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Diensten</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten">Diensten</a>
           </li>
           <li>
-            <a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement.php">Abonnement</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement">Abonnement</a>
           </li>
           <li>
-            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Contact</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact">Contact</a>
           </li>
         </ul>
       </li>

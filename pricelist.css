@@ -90,10 +90,6 @@ body{background-color:#f8f8f8;}
 	height: 700px;
 }
 
-#abonnement{
-	height: 530px;
-}
-
 #generic_price_table .generic_content .generic_head_price {
 	margin: 0 0 20px 0;
 }
@@ -230,8 +226,10 @@ body{background-color:#f8f8f8;}
 @media (max-width: 767px) {
 	#generic_price_table .generic_content{
 		margin-bottom:75px;
-	}
+		   height: 750px;
 }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	#generic_price_table .col-md-3{
 		float:left;
@@ -413,3 +411,4 @@ body{background-color:#f8f8f8;}
 	color: #FFF;
 	text-decoration:none;
 }
+

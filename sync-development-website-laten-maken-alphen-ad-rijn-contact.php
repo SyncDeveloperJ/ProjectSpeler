@@ -67,10 +67,10 @@ $(document).ready(function(){
 <header>
 <nav>
 <ul>
-<li><a href="index.php">Home</a></li>
-<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Diensten</a></li>
-<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement.php">Abonnementen</a></li>
-<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Contact</a></li>
+<li><a href="index">Home</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten">Diensten</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement">Abonnementen</a></li>
+<li><a href="sync-development-website-laten-maken-alphen-ad-rijn-contact">Contact</a></li>
 
 </ul>
 </nav> 
@@ -123,12 +123,12 @@ $(document).ready(function(){
     <h2> Neem contact met ons op</h2>
     <div class="row">
     <div class="col-xs-12"><fieldset>
-    <input placeholder="First Name" type="text" tabindex="1" name="name"  autofocus> <span class="error"><?= $name_error ?></span>
+    <input placeholder="Voornaam" type="text" tabindex="1" name="name"  autofocus> <span class="error"><?= $name_error ?></span>
     </fieldset>
     </div>
     
     <div class="col-xs-12"><fieldset>
-    <input placeholder="Last Name" type="text" name="last_name" tabindex="2"> <span class="error"><?= $last_name_error ?></span>
+    <input placeholder="Achternaam" type="text" name="last_name" tabindex="2"> <span class="error"><?= $last_name_error ?></span>
     </fieldset>
     </div>
       </div>
@@ -136,11 +136,11 @@ $(document).ready(function(){
       <input placeholder="E-mail" type="text" name="email"  tabindex="3"> <span class="error"><?= $email_error ?></span>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Write your message here.." type="text" name="message"  tabindex="5"></textarea>
+      <textarea placeholder="Uw bericht" type="text" name="message"  tabindex="5"></textarea>
     </fieldset>
       <div class="g-recaptcha" data-sitekey="6Lfx8oMUAAAAALx3zcAWup4jVjSIiEDT7r464MTz"></div>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send</button>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Verstuur</button>
     </fieldset>
     <div class ="success"><?= $success; ?></div>
   </form>
@@ -161,7 +161,7 @@ $(document).ready(function(){
               <div class="col-md-10 col-md-push-1">
 						<div class="pt-box pt-box-2 text-center pt-equal" style="align-self:center;">   
                           <h3>Contact gegevens</h3>
-                             <p><span class="glyphicon glyphicon-map-marker" style="color: #00518e;"></span> Antonie van leeuwenhoekweg 14, 2408AM, Alphen aan den rijn</p>
+                             <p><span class="glyphicon glyphicon-map-marker" style="color: #00518e;"></span> Antonie van leeuwenhoekweg 14, 2408AM Alphen aan den rijn</p>
                              <p><span class="glyphicon glyphicon-phone" style="color: #00518e;"></span>0611129593</p>
                              <p><span class="glyphicon glyphicon-envelope" style="color: #00518e;"></span>info@sync-development.nl</p>
                              <p>KvK-nummer: 69925666</p>
@@ -183,16 +183,16 @@ $(document).ready(function(){
         <h2 class="ct-footer-list-header">Navigatie</h2>
         <ul>
           <li>
-            <a href="index.php">Homepagina</a>
+            <a href="index">Homepagina</a>
           </li>
           <li>
-            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Diensten</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten">Diensten</a>
           </li>
           <li>
-            <a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement.php">Abonnement</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-abonnement">Abonnement</a>
           </li>
           <li>
-            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Contact</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact">Contact</a>
           </li>
         </ul>
       </li>

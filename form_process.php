@@ -55,10 +55,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $to = 'Sync development <info@sync-development.nl>';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message, $headers)){
-          $success = "Message was sent succesfully, Thanks!";
+          $success = "Uw bericht is succesvol verzonden!";
           $name = $last_name = $email = $message = '';
       }else {
-          die("Something went wrong");
+          die("Er is iets mis gegaan, controleer of alle velden zijn ingevuld");
       }
   }
   
