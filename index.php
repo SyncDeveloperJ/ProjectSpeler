@@ -205,7 +205,7 @@ $(document).ready(function(){
                             <br>
                             <p>Bent u benieuwd wat wij voor u kunnen betekenen? Twijfel dan niet en stuur ons een bericht! Wij Reageren gegarandeerd binnen 24 uur en afhankelijk van uw situatie voorzien wij u direct met een offerte of een passende prijsindicatie. </p>
                             
-                            <a href="contact.html"><button id="button-1" type="button" class="btn btn-info" data-toggle="modal">Neem contact met ons op!</button></a>
+                            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php"><button id="button-1" type="button" class="btn btn-info" data-toggle="modal">Neem contact met ons op!</button></a>
                             
                          
 							
@@ -295,31 +295,31 @@ $(document).ready(function(){
         <h2 class="ct-footer-list-header">Wij zijn actief in:</h2>
         <ul>
           <li>
-            <a href="">Alphen aan den Rijn</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Alphen aan den Rijn</a>
           </li>
           <li>
-            <a href="">Aalsmeer</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Aalsmeer</a>
           </li>
           <li>
-            <a href="">Bodegraven</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Bodegraven</a>
           </li>
           <li>
-            <a href="">Boskoop</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Boskoop</a>
           </li>
           <li>
-            <a href="">Leiden</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Leiden</a>
           </li>
           <li>
-            <a href="">Nieuwkoop</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Nieuwkoop</a>
           </li>
           <li>
-            <a href="">Ter Aar</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Ter Aar</a>
           </li>
           <li>
-            <a href="">Waddinxveen</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Waddinxveen</a>
           </li>
           <li>
-            <a href="">Zoetermeer</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-contact.php">Zoetermeer</a>
           </li>
           
         </ul>
@@ -330,22 +330,22 @@ $(document).ready(function(){
         <h2 class="ct-footer-list-header">Onze diensten</h2>
         <ul>
           <li>
-            <a href="">Logo laten maken</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Logo laten maken</a>
           </li>
           <li>
-            <a href="">Huisstijl afstemmen</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Huisstijl afstemmen</a>
           </li>
           <li>
-            <a href="">Search Engine Optimization</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Search Engine Optimization</a>
           </li>
            <li>
-            <a href="">Google AdWords</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Google AdWords</a>
           </li>
            <li>
-            <a href="">Google Analytics</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Google Analytics</a>
           </li>
           <li>
-            <a href="">Visitekaartjes</a>
+            <a href="sync-development-website-laten-maken-alphen-ad-rijn-diensten.php">Visitekaartjes</a>
           </li>
         </ul>
       </li>
