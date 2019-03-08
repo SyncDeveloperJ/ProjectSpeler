@@ -159,7 +159,7 @@ $(document).ready(function(){
      <section class="pt-end">
         <div class="container">
               <div class="col-md-10 col-md-push-1">
-						<div class="pt-box pt-box-2 text-center pt-equal" style="align-self:center;">   
+						<div class="pt-box pt-box-2 text-center pt-equal" style="align-self:left;">   
                           <h3>Contact gegevens</h3>
                              <p><span class="glyphicon glyphicon-map-marker" style="color: #00518e;"></span> Antonie van leeuwenhoekweg 14, 2408AM Alphen aan den rijn</p>
                              <p><span class="glyphicon glyphicon-phone" style="color: #00518e;"></span>0611129593</p>
